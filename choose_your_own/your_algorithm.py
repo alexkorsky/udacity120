@@ -37,7 +37,6 @@ clf = classify(features_train, labels_train)
 prettyPicture(clf, features_test, labels_test)
 output_image("test.png", "png", open("test.png", "rb").read())
 
-
 try:
     prettyPicture(clf, features_test, labels_test)
 except NameError:
